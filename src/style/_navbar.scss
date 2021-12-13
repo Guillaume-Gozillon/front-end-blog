@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50rem;
+  margin-top: 1rem;
+}
+
+nav a,
+nav span {
+  padding: 20px;
+  background-color: rgb(216, 216, 216);
+  color: black;
+  border-radius: 1rem;
+}
+
+nav span {
+  cursor: pointer;
+}
+
+nav a:hover,
+nav span:hover {
+  padding: 20px;
+  background-color: rgb(236, 236, 236);
+}
